@@ -35,7 +35,7 @@ let question_five_five=document.getElementById('question-five-five')
 question_one_one.addEventListener('click',()=>{
     question_one_one.style.color="orange"
     document.getElementById('feedback-1').value=1
-    console.log(document.getElementById('feedback-1').value)
+   
 })
 
 question_one_two.addEventListener('click',()=>{
@@ -62,32 +62,32 @@ question_one_five.addEventListener('click',()=>{
     question_one_three.style.color="orange"
     question_one_four.style.color="orange"
     question_one_five.style.color="orange"
-    document.getElementById('feedback-1').textContent=5
+    document.getElementById('feedback-1').value=5
 })
 
 
 question_two_one.addEventListener('click',()=>{
     question_two_one.style.color="orange"
-    document.getElementById('feedback-2').textContent=1
+    document.getElementById('feedback-2').value=1
 })
 
 question_two_two.addEventListener('click',()=>{
     question_two_one.style.color="orange"
     question_one_two.style.color="orange"
-    document.getElementById('feedback-2').textContent=2
+    document.getElementById('feedback-2').value=2
 })
 question_two_three.addEventListener('click',()=>{
     question_two_one.style.color="orange"
     question_two_two.style.color="orange"
     question_two_three.style.color="orange"
-    document.getElementById('feedback-2').textContent=3
+    document.getElementById('feedback-2').value=3
 })
 question_two_four.addEventListener('click',()=>{
     question_two_one.style.color="orange"
     question_two_two.style.color="orange"
     question_two_three.style.color="orange"
     question_two_four.style.color="orange"
-    document.getElementById('feedback-2').textContent=4
+    document.getElementById('feedback-2').value=4
 })
 question_two_five.addEventListener('click',()=>{
     question_two_one.style.color="orange"
@@ -95,32 +95,32 @@ question_two_five.addEventListener('click',()=>{
     question_two_three.style.color="orange"
     question_two_four.style.color="orange"
     question_two_five.style.color="orange"
-    document.getElementById('feedback-2').textContent=5
+    document.getElementById('feedback-2').value=5
 })
 
 
 question_three_one.addEventListener('click',()=>{
     question_three_one.style.color="orange"
-    document.getElementById('feedback-3').textContent=1
+    document.getElementById('feedback-3').value=1
 })
 
 question_three_two.addEventListener('click',()=>{
     question_three_one.style.color="orange"
     question_three_two.style.color="orange"
-    document.getElementById('feedback-3').textContent=2
+    document.getElementById('feedback-3').value=2
 })
 question_three_three.addEventListener('click',()=>{
     question_three_one.style.color="orange"
     question_three_two.style.color="orange"
     question_three_three.style.color="orange"
-    document.getElementById('feedback-3').textContent=3
+    document.getElementById('feedback-3').value=3
 })
 question_three_four.addEventListener('click',()=>{
     question_three_one.style.color="orange"
     question_three_two.style.color="orange"
     question_three_three.style.color="orange"
     question_three_four.style.color="orange"
-    document.getElementById('feedback-3').textContent=4
+    document.getElementById('feedback-3').value=4
 })
 question_three_five.addEventListener('click',()=>{
     question_three_one.style.color="orange"
@@ -128,7 +128,7 @@ question_three_five.addEventListener('click',()=>{
     question_three_three.style.color="orange"
     question_three_four.style.color="orange"
     question_three_five.style.color="orange"
-    document.getElementById('feedback-3').textContent=5
+    document.getElementById('feedback-3').value=5
 })
 
 

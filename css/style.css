@@ -108,7 +108,7 @@ input.btn-submit:hover {
   }
 
  .col-h{
-     display: flex;
+     display: none;
  }
 
  .rating{
