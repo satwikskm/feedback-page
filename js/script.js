@@ -35,6 +35,7 @@ let question_five_five=document.getElementById('question-five-five')
 question_one_one.addEventListener('click',()=>{
     question_one_one.style.color="orange"
     document.getElementById('feedback-1').value=1
+    console.log(document.getElementById('feedback-1').value)
 })
 
 question_one_two.addEventListener('click',()=>{
