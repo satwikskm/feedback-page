@@ -79,18 +79,29 @@ question_one_five.addEventListener('click',()=>{
 
 question_two_one.addEventListener('click',()=>{
     question_two_one.style.color="orange"
+    question_two_one.style.color="rgb(255, 217, 0)"
+    question_two_two.style.color="rgb(255, 217, 0)"
+    question_two_three.style.color="rgb(255, 217, 0)"
+    question_two_four.style.color="rgb(255, 217, 0)"
+    question_two_five.style.color="rgb(255, 217, 0)"
     document.getElementById('feedback-2').value=1
 })
 
 question_two_two.addEventListener('click',()=>{
     question_two_one.style.color="orange"
     question_one_two.style.color="orange"
+    question_two_two.style.color="rgb(255, 217, 0)"
+    question_two_three.style.color="rgb(255, 217, 0)"
+    question_two_four.style.color="rgb(255, 217, 0)"
+    question_two_five.style.color="rgb(255, 217, 0)"
     document.getElementById('feedback-2').value=2
 })
 question_two_three.addEventListener('click',()=>{
     question_two_one.style.color="orange"
     question_two_two.style.color="orange"
     question_two_three.style.color="orange"
+    question_two_four.style.color="rgb(255, 217, 0)"
+    question_two_five.style.color="rgb(255, 217, 0)"
     document.getElementById('feedback-2').value=3
 })
 question_two_four.addEventListener('click',()=>{
@@ -98,6 +109,7 @@ question_two_four.addEventListener('click',()=>{
     question_two_two.style.color="orange"
     question_two_three.style.color="orange"
     question_two_four.style.color="orange"
+    question_two_five.style.color="rgb(255, 217, 0)"
     document.getElementById('feedback-2').value=4
 })
 question_two_five.addEventListener('click',()=>{
@@ -112,18 +124,28 @@ question_two_five.addEventListener('click',()=>{
 
 question_three_one.addEventListener('click',()=>{
     question_three_one.style.color="orange"
+    question_three_one.style.color="rgb(255, 217, 0)"
+    question_three_two.style.color="rgb(255, 217, 0)"
+    question_three_three.style.color="rgb(255, 217, 0)"
+    question_three_four.style.color="rgb(255, 217, 0)"
+    question_three_five.style.color="rgb(255, 217, 0)"
     document.getElementById('feedback-3').value=1
 })
 
 question_three_two.addEventListener('click',()=>{
     question_three_one.style.color="orange"
     question_three_two.style.color="orange"
+    question_three_three.style.color="rgb(255, 217, 0)"
+    question_three_four.style.color="rgb(255, 217, 0)"
+    question_three_five.style.color="rgb(255, 217, 0)"
     document.getElementById('feedback-3').value=2
 })
 question_three_three.addEventListener('click',()=>{
     question_three_one.style.color="orange"
     question_three_two.style.color="orange"
     question_three_three.style.color="orange"
+    question_three_four.style.color="rgb(255, 217, 0)"
+    question_three_five.style.color="rgb(255, 217, 0)"
     document.getElementById('feedback-3').value=3
 })
 question_three_four.addEventListener('click',()=>{
@@ -131,6 +153,7 @@ question_three_four.addEventListener('click',()=>{
     question_three_two.style.color="orange"
     question_three_three.style.color="orange"
     question_three_four.style.color="orange"
+    question_three_five.style.color="rgb(255, 217, 0)"
     document.getElementById('feedback-3').value=4
 })
 question_three_five.addEventListener('click',()=>{
