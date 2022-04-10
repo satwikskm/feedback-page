@@ -34,26 +34,26 @@ let question_five_five=document.getElementById('question-five-five')
 
 question_one_one.addEventListener('click',()=>{
     question_one_one.style.color="orange"
-    document.getElementById('feedback-1').textContent=1
+    document.getElementById('feedback-1').value=1
 })
 
 question_one_two.addEventListener('click',()=>{
     question_one_one.style.color="orange"
     question_one_two.style.color="orange"
-    document.getElementById('feedback-1').textContent=2
+    document.getElementById('feedback-1').value=2
 })
 question_one_three.addEventListener('click',()=>{
     question_one_one.style.color="orange"
     question_one_two.style.color="orange"
     question_one_three.style.color="orange"
-    document.getElementById('feedback-1').textContent=3
+    document.getElementById('feedback-1').value=3
 })
 question_one_four.addEventListener('click',()=>{
     question_one_one.style.color="orange"
     question_one_two.style.color="orange"
     question_one_three.style.color="orange"
     question_one_four.style.color="orange"
-    document.getElementById('feedback-1').textContent=4
+    document.getElementById('feedback-1').value=4
 })
 question_one_five.addEventListener('click',()=>{
     question_one_one.style.color="orange"
