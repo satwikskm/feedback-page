@@ -35,11 +35,19 @@ form {
 .main-container{
     display: flex;
     flex-direction: column;
+    background-image: url(/images/image.jpg);
+    z-index: -1;
+    background-size: 1440px 1000px;
+    height: 100vh;
+   
+  
+
+
 }
 
 .left{
     background: white;
-    width:50%;
+    width:48%;
     text-align: center;
     margin-left: 12%;
     margin-right: 20%;
@@ -47,16 +55,18 @@ form {
     padding: 30px 30px;
     border-radius: 30px;
     box-shadow: 20px 30px 25px rgba(0, 0, 0, 0.5);
+    transform: translate(500px,50px);
+    z-index: 10;
 }
 
 .row {
     width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10rem, 1.5fr));
-  row-gap: 10px;
-  column-gap: 10px;
-  margin-bottom: 14px;
-   padding: 10px 30px; 
+  row-gap: 5px;
+  column-gap: 5px;
+  
+   padding: 10px 10px; 
   }
 
 
@@ -72,8 +82,8 @@ label {
     width: 100%;
     font-size: 1.2rem;
     font-weight: 600;
-    padding: 20px 20px;
-    border-radius: 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
     border: 1.2px solid #c4cae0;
     
   }
@@ -86,8 +96,8 @@ label {
     width: 30%;
     border: none;
     padding: 0.8rem 1.5rem;
-    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: wheat;
+    background: #4c46f5 ;/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 30px;
@@ -101,10 +111,10 @@ input:hover,
 
 input.btn-submit:hover {
     cursor: pointer;
-    background: linear-gradient(135deg, #4c46f5, #c4cae0);
+    background: #716ec5 ;
     color: white;
-    width: 40%;
-    height:60px;
+    
+    
   }
 
  .col-h{
@@ -125,6 +135,14 @@ input.btn-submit:hover {
 
 }
 
+.feedback{
+    font-size: 15px;
+    background: #1c2042;
+    color: aliceblue;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
 
 
 .rating span:hover{
@@ -139,4 +157,14 @@ input.btn-submit:hover {
     transition: 0.2s ease-in;
 
 
+}
+
+.navbar{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    color: aliceblue;
+    background: #4c46f5;
+    z-index: 1;
+    padding: 20px 20px;
 }

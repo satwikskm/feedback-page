@@ -34,6 +34,11 @@ let question_five_five=document.getElementById('question-five-five')
 
 question_one_one.addEventListener('click',()=>{
     question_one_one.style.color="orange"
+    question_one_one.style.color="rgb(255, 217, 0)"
+    question_one_two.style.color="rgb(255, 217, 0)"
+    question_one_three.style.color="rgb(255, 217, 0)"
+    question_one_four.style.color="rgb(255, 217, 0)"
+    question_one_five.style.color="rgb(255, 217, 0)"
     document.getElementById('feedback-1').value=1
    
 })
@@ -41,12 +46,17 @@ question_one_one.addEventListener('click',()=>{
 question_one_two.addEventListener('click',()=>{
     question_one_one.style.color="orange"
     question_one_two.style.color="orange"
+    question_one_three.style.color="rgb(255, 217, 0)"
+    question_one_four.style.color="rgb(255, 217, 0)"
+    question_one_five.style.color="rgb(255, 217, 0)"
     document.getElementById('feedback-1').value=2
 })
 question_one_three.addEventListener('click',()=>{
     question_one_one.style.color="orange"
     question_one_two.style.color="orange"
     question_one_three.style.color="orange"
+    question_one_four.style.color="rgb(255, 217, 0)"
+    question_one_five.style.color="rgb(255, 217, 0)"
     document.getElementById('feedback-1').value=3
 })
 question_one_four.addEventListener('click',()=>{
@@ -54,6 +64,7 @@ question_one_four.addEventListener('click',()=>{
     question_one_two.style.color="orange"
     question_one_three.style.color="orange"
     question_one_four.style.color="orange"
+    question_one_five.style.color="rgb(255, 217, 0)"
     document.getElementById('feedback-1').value=4
 })
 question_one_five.addEventListener('click',()=>{
