@@ -10,6 +10,6 @@ let feedback=0
 two.addEventListener('click',()=>{
     one.style.color="orange"
     two.style.color="orange"
-    feedback=1
+    feedback=2
     document.getElementById('feedback-1').value=feedback
 })
