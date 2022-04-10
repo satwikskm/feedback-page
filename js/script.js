@@ -7,8 +7,9 @@ let five=document.getElementById('five')
 let feedback=0
 
 
-one.addEventListener('click',()=>{
+two.addEventListener('click',()=>{
     one.style.color="orange"
+    two.style.color="orange"
     feedback=1
-    document.getElementById('feedback-1').textContent=feedback
+    document.getElementById('feedback-1').value=feedback
 })
