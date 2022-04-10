@@ -35,7 +35,8 @@ form {
 .main-container{
     display: flex;
     flex-direction: column;
-    background-image: url(/images/image.jpg);
+    background: url(/images/image.jpg) no-repeat;
+    
     z-index: -1;
     background-size: 1440px 1000px;
     height: 100vh;
@@ -167,4 +168,19 @@ input.btn-submit:hover {
     background: #4c46f5;
     z-index: 1;
     padding: 20px 20px;
+}
+
+
+@media(min-width:1549px){
+  .main-container{
+    
+    background-size: 2440px 1000px;
+   
+   
+  
+
+
+}
+
+
 }
