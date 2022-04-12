@@ -184,3 +184,48 @@ input.btn-submit:hover {
 
 
 }
+
+
+
+@media(max-width:420px){
+  .main-container{
+    
+    background-size: 500px 1200px;
+    height: 130vh;
+}
+
+  .left{
+    display: flex;
+    transform: translate(50px,20px);
+    width: 80%;
+    height: 100vh;
+  }
+
+  .rating{
+    margin-left: 10px;
+    transform: translate(-65px,0);
+    
+  }
+
+  .rating span{
+    justify-content: space-around;
+    
+  }
+
+  input.btn-submit{
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .row{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row .col input{
+    width: 100%;
+    
+  }
+
+
+}
