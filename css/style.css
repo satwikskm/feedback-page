@@ -198,7 +198,7 @@ input.btn-submit:hover {
     display: flex;
     flex-direction: column;
     transform: translate(0px,0px);
-    
+    position: absolute;
     height: 120vh;
     width: 80%;
   }
