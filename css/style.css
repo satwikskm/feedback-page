@@ -201,7 +201,7 @@ input.btn-submit:hover {
     position: absolute;
     height: 120vh;
     width: 80%;
-    overflow: hidden;
+    overflow: scroll;
     margin-bottom: 50%;
   }
 
