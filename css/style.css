@@ -202,6 +202,7 @@ input.btn-submit:hover {
     height: 120vh;
     width: 80%;
     overflow: hidden;
+    margin-top: 50%;
   }
 
   .rating{
