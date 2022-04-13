@@ -88,17 +88,20 @@
                     
                 <div class="row">
                   <div class="col">
-                    <label for="name">Full Name</label>
+                    <label for="mobile">Contact Number</label>
                     <input
-                      type="text"
-                      id="name"
-                      placeholder="Enter your Full Name"
-                      name="name"
-                      required
-                      minlength="8"
-                      maxlength="16"
-                    />
-                  </div>
+                  type="tel"
+                  id="mobile"
+                  placeholder="Enter Mobile Number"
+                  name="mobile_number"
+                  required
+                  minlength="10"
+                  maxlength="10"
+                />
+                
+
+                </div>
+                  
                   <div class="col">
                     <label for="email">Email Address</label>
                     <input
@@ -115,21 +118,20 @@
                 </div>
                 
                   <div class="row">
-                   
                     <div class="col">
-                        <label for="mobile">Contact Number</label>
-                        <input
-                      type="tel"
-                      id="mobile"
-                      placeholder="Enter Mobile Number"
-                      name="mobile_number"
-                      required
-                      minlength="10"
-                      maxlength="10"
-                    />
-                    
-
+                      <label for="message">Your Message</label>
+                      <textarea
+                        id="message"
+                        placeholder="Enter your issue/message"
+                        rows="3"
+                        name="message"
+                        required
+                        minlength="15"
+                        maxlength="300"
+                      ></textarea>
                     </div>
+                   
+                    
                     
                   </div>
                   <input type="submit" value="Submit" class="btn-submit" />
