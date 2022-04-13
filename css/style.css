@@ -202,7 +202,7 @@ input.btn-submit:hover {
     height: 120vh;
     width: 80%;
     overflow: hidden;
-    margin-top: 50%;
+    margin-bottom: 50%;
   }
 
   .rating{
@@ -245,10 +245,7 @@ input.btn-submit:hover {
     padding: 20px 20px;
     font-size: 10px;
   }
-  input:focus{
-    position: fixed;
-    top:50px;
-}
+  
 }
 
   
