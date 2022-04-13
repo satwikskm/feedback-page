@@ -199,13 +199,13 @@ input.btn-submit:hover {
     flex-direction: column;
     transform: translate(0px,0px);
     
-    height: 100vh;
+    height: 120vh;
     width: 80%;
   }
 
   .rating{
     margin-left: 10px;
-    transform: translate(-65px,0);
+    transform: translate(-70px,0);
     
   }
 
