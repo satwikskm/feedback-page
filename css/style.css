@@ -190,7 +190,7 @@ input.btn-submit:hover {
 @media(max-width:400px){
   .main-container{
     
-    background-size: 500px 1400px;
+    background-size: 500px 3400px;
     height: 130vh;
 }
 
