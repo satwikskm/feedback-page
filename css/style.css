@@ -205,8 +205,13 @@ input.btn-submit:hover {
 
   .rating{
     margin-left: 10px;
-    transform: translate(-72px,0);
+    transform: translate(-75px,0);
     
+  }
+  .rating span{
+
+    width: 50%;
+
   }
 
   .rating span{
